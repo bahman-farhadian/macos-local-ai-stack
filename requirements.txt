@@ -1,0 +1,9 @@
+# Open WebUI — pinned release
+open-webui==0.9.6
+
+# Open WebUI uses ChromaDB as its built-in vector DB (VECTOR_DB=chroma).
+# Listed explicitly so the `chroma` CLI entry point is present for start-chromadb.sh.
+chromadb
+
+# STT — Open WebUI built-in Whisper (bundled, no separate package needed)
+# TTS — Browser Web API (client-side, no server package needed)
